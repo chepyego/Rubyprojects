@@ -6,10 +6,18 @@
 
 # puts "."
 
-celsius = 100
+# celsius = 100
 
-fahrenheit = (celsius * 9 / 5) + 32
+# fahrenheit = (celsius * 9 / 5) + 32
 
-puts "Your results is #{fahrenheit}"
+# puts "Yourresults is #{fahrenheit}"
 
-puts "."
+# puts "."
+ 
+
+print "Hello. please enter a celsius you want:"
+celsius = gets.chomp.to_i
+
+fahrenheit = (celsius * 9 / 5) +32
+
+puts "The Fahrenheit is equivalent #{fahrenheit} "
