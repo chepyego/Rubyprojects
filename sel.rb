@@ -28,3 +28,12 @@ people = {
 puts people_2 = people.invert
 
  puts people.merge(people_2)
+
+  puts people.to_a
+
+  #displaying all keys
+
+  people.keys
+
+  #displaying all values
+   people.values
